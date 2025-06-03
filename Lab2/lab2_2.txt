@@ -1,0 +1,14 @@
+# print out all the hidden directories
+ls -ld .?*
+
+# print out the contents 
+vim "*notes?.txt"
+cat "*notes?.txt"
+
+# rename a file 
+vim "hello\$world.txt"
+mv "hello\$world.txt" "greetings.txt"
+
+
+# print out .sh files to a txt file 
+find ~ -type f -name "*.sh" -print > scripts_list.txt
